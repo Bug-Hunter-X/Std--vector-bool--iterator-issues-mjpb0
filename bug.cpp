@@ -1,0 +1,1 @@
+std::vector<bool> is specialized and doesn't behave exactly like other vectors.  It's often implemented as a bitset for memory efficiency, leading to unexpected behavior with iterators and some algorithms.
